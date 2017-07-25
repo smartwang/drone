@@ -19,7 +19,7 @@ import (
 	"github.com/smartwang/drone/shared/httputil"
 	"github.com/smartwang/drone/shared/token"
 	"github.com/smartwang/drone/store"
-	"github.com/smartwang/envsubst"
+	"github.com/drone/envsubst"
 
 	"github.com/cncd/pipeline/pipeline/backend"
 	"github.com/cncd/pipeline/pipeline/frontend"
