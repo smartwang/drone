@@ -6,6 +6,7 @@ set -x
 
 go get ./...
 cd ${GOPATH}/src/github.com/smartwang/drone-ui
+git pull
 git checkout develop
 cd -
 go build -ldflags '-extldflags "-static" -X drone/version.VersionDev=build.'${DRONE_BUILD_NUMBER:-$(date +%s)}  -o release/drone-server  github.com/drone/drone/cmd/drone-server
