@@ -185,7 +185,7 @@ var login = `<!DOCTYPE html>
     </div>
     <div class="mdl-layout-spacer"></div>
   </div>
-  <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+  <script src="//static.ilongyuan.cn/ops/drone/material.min.js"></script>
 </body>
 </html>
 `
