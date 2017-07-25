@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/drone/drone-ui/dist"
+	"github.com/smartwang/drone-ui/dist"
 	"github.com/drone/drone/model"
 	"github.com/drone/drone/server/template"
 	"github.com/drone/drone/shared/token"
