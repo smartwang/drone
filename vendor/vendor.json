@@ -315,13 +315,13 @@
 		},
 		{
 			"checksumSHA1": "pjMV8mwWcQ0Kk9cbLWweTGiqYPk=",
-			"path": "github.com/drone/envsubst",
+			"path": "github.com/smartwang/envsubst",
 			"revision": "523de92ea410a5756012669fb628fe42a3056b3e",
 			"revisionTime": "2017-03-25T05:49:59Z"
 		},
 		{
 			"checksumSHA1": "CVG/vocbXGLbGKRO//TOlicOBkw=",
-			"path": "github.com/drone/envsubst/parse",
+			"path": "github.com/smartwang/envsubst/parse",
 			"revision": "523de92ea410a5756012669fb628fe42a3056b3e",
 			"revisionTime": "2017-03-25T05:49:59Z"
 		},
@@ -1017,5 +1017,5 @@
 			"revisionTime": "2015-01-19T16:55:52-02:00"
 		}
 	],
-	"rootPath": "github.com/drone/drone"
+	"rootPath": "github.com/smartwang/drone"
 }

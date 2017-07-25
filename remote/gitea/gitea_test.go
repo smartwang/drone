@@ -4,8 +4,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote/gitea/fixtures"
+	"github.com/smartwang/drone/model"
+	"github.com/smartwang/drone/remote/gitea/fixtures"
 	"github.com/franela/goblin"
 	"github.com/gin-gonic/gin"
 )

@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/drone/drone/store/datastore/ddl/mysql"
-	"github.com/drone/drone/store/datastore/ddl/postgres"
-	"github.com/drone/drone/store/datastore/ddl/sqlite"
+	"github.com/smartwang/drone/store/datastore/ddl/mysql"
+	"github.com/smartwang/drone/store/datastore/ddl/postgres"
+	"github.com/smartwang/drone/store/datastore/ddl/sqlite"
 )
 
 // Supported database drivers

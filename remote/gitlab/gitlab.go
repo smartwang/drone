@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote"
-	"github.com/drone/drone/shared/httputil"
-	"github.com/drone/drone/shared/oauth2"
+	"github.com/smartwang/drone/model"
+	"github.com/smartwang/drone/remote"
+	"github.com/smartwang/drone/shared/httputil"
+	"github.com/smartwang/drone/shared/oauth2"
 
-	"github.com/drone/drone/remote/gitlab/client"
+	"github.com/smartwang/drone/remote/gitlab/client"
 )
 
 const DefaultScope = "api"

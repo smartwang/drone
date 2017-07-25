@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote/bitbucketserver/internal"
+	"github.com/smartwang/drone/model"
+	"github.com/smartwang/drone/remote/bitbucketserver/internal"
 	"github.com/mrjones/oauth"
 )
 

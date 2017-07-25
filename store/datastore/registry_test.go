@@ -3,7 +3,7 @@ package datastore
 import (
 	"testing"
 
-	"github.com/drone/drone/model"
+	"github.com/smartwang/drone/model"
 )
 
 func TestRegistryFind(t *testing.T) {

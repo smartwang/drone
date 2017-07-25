@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/drone/drone/version"
+	"github.com/smartwang/drone/version"
 	"github.com/gin-gonic/gin"
 )
 

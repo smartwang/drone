@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"code.gitea.io/sdk/gitea"
-	"github.com/drone/drone/model"
+	"github.com/smartwang/drone/model"
 )
 
 // helper function that converts a Gitea repository to a Drone repository.

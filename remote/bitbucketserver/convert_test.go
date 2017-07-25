@@ -3,8 +3,8 @@ package bitbucketserver
 import (
 	"testing"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote/bitbucketserver/internal"
+	"github.com/smartwang/drone/model"
+	"github.com/smartwang/drone/remote/bitbucketserver/internal"
 	"github.com/franela/goblin"
 	"github.com/mrjones/oauth"
 )

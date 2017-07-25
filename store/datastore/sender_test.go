@@ -3,7 +3,7 @@ package datastore
 import (
 	"testing"
 
-	"github.com/drone/drone/model"
+	"github.com/smartwang/drone/model"
 )
 
 func TestSenderFind(t *testing.T) {

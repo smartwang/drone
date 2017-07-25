@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/drone/drone/store"
+	"github.com/smartwang/drone/store"
 	"github.com/urfave/cli"
 
 	"github.com/gin-gonic/gin"

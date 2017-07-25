@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/server/template"
-	"github.com/drone/drone/shared/token"
+	"github.com/smartwang/drone/model"
+	"github.com/smartwang/drone/server/template"
+	"github.com/smartwang/drone/shared/token"
 )
 
 type local struct {

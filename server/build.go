@@ -13,13 +13,13 @@ import (
 	"github.com/cncd/pipeline/pipeline/rpc"
 	"github.com/cncd/pubsub"
 	"github.com/cncd/queue"
-	"github.com/drone/drone/remote"
-	"github.com/drone/drone/shared/httputil"
-	"github.com/drone/drone/store"
+	"github.com/smartwang/drone/remote"
+	"github.com/smartwang/drone/shared/httputil"
+	"github.com/smartwang/drone/store"
 	"github.com/gin-gonic/gin"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/router/middleware/session"
+	"github.com/smartwang/drone/model"
+	"github.com/smartwang/drone/router/middleware/session"
 )
 
 func GetBuilds(c *gin.Context) {

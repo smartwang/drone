@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/drone/drone/store"
-	"github.com/drone/drone/store/datastore/ddl"
+	"github.com/smartwang/drone/store"
+	"github.com/smartwang/drone/store/datastore/ddl"
 	"github.com/russross/meddler"
 
 	"github.com/Sirupsen/logrus"

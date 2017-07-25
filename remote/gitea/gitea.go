@@ -8,8 +8,8 @@ import (
 	"net/url"
 
 	"code.gitea.io/sdk/gitea"
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote"
+	"github.com/smartwang/drone/model"
+	"github.com/smartwang/drone/remote"
 )
 
 // Opts defines configuration options.

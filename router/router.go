@@ -5,13 +5,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/drone/drone/router/middleware/header"
-	"github.com/drone/drone/router/middleware/session"
-	"github.com/drone/drone/router/middleware/token"
-	"github.com/drone/drone/server"
-	"github.com/drone/drone/server/debug"
-	"github.com/drone/drone/server/metrics"
-	"github.com/drone/drone/server/template"
+	"github.com/smartwang/drone/router/middleware/header"
+	"github.com/smartwang/drone/router/middleware/session"
+	"github.com/smartwang/drone/router/middleware/token"
+	"github.com/smartwang/drone/server"
+	"github.com/smartwang/drone/server/debug"
+	"github.com/smartwang/drone/server/metrics"
+	"github.com/smartwang/drone/server/template"
 )
 
 // Load loads the router

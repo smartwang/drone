@@ -3,7 +3,7 @@ package server
 import (
 	"testing"
 
-	"github.com/drone/drone/model"
+	"github.com/smartwang/drone/model"
 )
 
 func TestMultilineEnvsubst(t *testing.T) {

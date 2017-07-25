@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/drone/drone/remote"
+	"github.com/smartwang/drone/remote"
 	"github.com/gin-gonic/gin"
 )
 
