@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/drone/drone/server/template"
-	"github.com/drone/drone/shared/token"
-	"github.com/drone/drone/version"
+	"github.com/smartwang/drone/server/template"
+	"github.com/smartwang/drone/shared/token"
+	"github.com/smartwang/drone/version"
 
 	"github.com/dimfeld/httptreemux"
 )

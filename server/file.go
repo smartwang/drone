@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/drone/drone/router/middleware/session"
-	"github.com/drone/drone/store"
+	"github.com/smartwang/drone/router/middleware/session"
+	"github.com/smartwang/drone/store"
 	"github.com/gin-gonic/gin"
 )
 

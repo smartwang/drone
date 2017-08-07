@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/drone/drone-ui/dist"
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/server/template"
-	"github.com/drone/drone/shared/token"
-	"github.com/drone/drone/version"
+	"github.com/smartwang/drone-ui/dist"
+	"github.com/smartwang/drone/model"
+	"github.com/smartwang/drone/server/template"
+	"github.com/smartwang/drone/shared/token"
+	"github.com/smartwang/drone/version"
 
 	"github.com/dimfeld/httptreemux"
 )
