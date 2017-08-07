@@ -1,6 +1,6 @@
 {
 	"comment": "",
-	"ignore": "test github.com/drone/mq/ github.com/tidwall/redlog/ google.golang.org/appengine/ github.com/syndtr/goleveldb/ github.com/drone/drone-ui/ github.com/golang/protobuf/proto github.com/golang/protobuf/ptypes/any golang.org/x/net/context golang.org/x/net/context/ctxhttp",
+	"ignore": "test github.com/drone/mq/ github.com/tidwall/redlog/ google.golang.org/appengine/ github.com/syndtr/goleveldb/ github.com/drone/drone-ui/ github.com/bradrydzewski/drone-ui-unit/dist/ github.com/golang/protobuf/proto github.com/golang/protobuf/ptypes/any golang.org/x/net/context golang.org/x/net/context/ctxhttp",
 	"package": [
 		{
 			"path": "appengine/cloudsql",
@@ -39,80 +39,80 @@
 		{
 			"checksumSHA1": "W3AuK8ocqHwlUajGmQLFvnRhTZE=",
 			"path": "github.com/cncd/pipeline/pipeline",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
 			"checksumSHA1": "rO+djTfB4LrT+FBbpotyUUobOtU=",
 			"path": "github.com/cncd/pipeline/pipeline/backend",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
 			"checksumSHA1": "DzP4c915B+gJTE5RCKQHzxwrUg4=",
 			"path": "github.com/cncd/pipeline/pipeline/backend/docker",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
-			"checksumSHA1": "8Hj/OZnYZyz5N2hqENCTTaGtkNQ=",
+			"checksumSHA1": "2A3+CnkMfvvO4oRkjQKqi44no0g=",
 			"path": "github.com/cncd/pipeline/pipeline/frontend",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
 			"checksumSHA1": "9KYIsY8WlWbrRAP7caEpWT70P9c=",
 			"path": "github.com/cncd/pipeline/pipeline/frontend/yaml",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
 			"checksumSHA1": "EgCQ0v0mExUBHMoxA6+8J8zWqFE=",
 			"path": "github.com/cncd/pipeline/pipeline/frontend/yaml/compiler",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
 			"checksumSHA1": "xBjAqRhLsJyh+8rbaKdPYOntTHw=",
 			"path": "github.com/cncd/pipeline/pipeline/frontend/yaml/linter",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
 			"checksumSHA1": "kx2sPUIMozPC/g6E4w48h3FfH3k=",
 			"path": "github.com/cncd/pipeline/pipeline/frontend/yaml/matrix",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
 			"checksumSHA1": "L7Q5qJmPITNmvFEEaj5MPwCWFRk=",
 			"path": "github.com/cncd/pipeline/pipeline/frontend/yaml/types",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
 			"checksumSHA1": "2/3f3oNmxXy5kcrRLCFa24Oc9O4=",
 			"path": "github.com/cncd/pipeline/pipeline/interrupt",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
 			"checksumSHA1": "uOjTfke7Qxosrivgz/nVTHeIP5g=",
 			"path": "github.com/cncd/pipeline/pipeline/multipart",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
-			"checksumSHA1": "YlIaMsvB5fFXRolugambNzkSu4I=",
+			"checksumSHA1": "t2HtsL+IUCVkjvHk99Jn1Fj8AXU=",
 			"path": "github.com/cncd/pipeline/pipeline/rpc",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
-			"checksumSHA1": "WAQJYKWUIFBnL1s8AnY4fePnzJ8=",
+			"checksumSHA1": "huYd+DhpBP/0kHMAC0mPZAZBmnw=",
 			"path": "github.com/cncd/pipeline/pipeline/rpc/proto",
-			"revision": "ab22744b29732792a53fe22e322a7408ba04d758",
-			"revisionTime": "2017-07-21T21:40:10Z"
+			"revision": "4ee869791092749a481c9ed9e888dfc503535917",
+			"revisionTime": "2017-08-02T19:39:34Z"
 		},
 		{
 			"checksumSHA1": "7Qj1DK0ceAXkYztW0l3+L6sn+V8=",
@@ -142,6 +142,12 @@
 			"path": "github.com/dgrijalva/jwt-go",
 			"revision": "c1da56349675b292d3200463e2c88b9aa5e02391",
 			"revisionTime": "2015-09-04T14:24:56-07:00"
+		},
+		{
+			"checksumSHA1": "sJwmO9GIFKXj4Ld94n9iAGSg9Jw=",
+			"path": "github.com/dimfeld/httptreemux",
+			"revision": "4faa6bbd32f9d5bad5f76288fa1a9e86574f5d46",
+			"revisionTime": "2017-07-28T18:11:13Z"
 		},
 		{
 			"checksumSHA1": "rSxOx+SnSLAxR4ST8fSz9hhJLdk=",
@@ -741,6 +747,24 @@
 			"path": "github.com/prometheus/procfs/xfs",
 			"revision": "6ac8c5d890d415025dd5aae7595bcb2a6e7e2fad",
 			"revisionTime": "2017-04-24T20:45:52Z"
+		},
+		{
+			"checksumSHA1": "fGBeb3o1grSXGUNAjwptkBWfch0=",
+			"path": "github.com/rs/zerolog",
+			"revision": "89ff8dbc5f047ae9957523b07e627891079f7967",
+			"revisionTime": "2017-07-27T06:42:12Z"
+		},
+		{
+			"checksumSHA1": "AREhk6LKIp2I/4Njd756bqU6JSQ=",
+			"path": "github.com/rs/zerolog/internal/json",
+			"revision": "89ff8dbc5f047ae9957523b07e627891079f7967",
+			"revisionTime": "2017-07-27T06:42:12Z"
+		},
+		{
+			"checksumSHA1": "kolarHDX6fkauW+1KWx1SFqSF2o=",
+			"path": "github.com/rs/zerolog/log",
+			"revision": "89ff8dbc5f047ae9957523b07e627891079f7967",
+			"revisionTime": "2017-07-27T06:42:12Z"
 		},
 		{
 			"path": "github.com/russross/meddler",

@@ -145,7 +145,7 @@ func PostHook(c *gin.Context) {
 	// fetch the build file from the database
 	confb, err := remote_.File(user, repo, build, repo.Config)
 	if err != nil {
-		logrus.Errorf("failure to get build config for %s. %s", repo.FullName, err)
+		logrus.Errorf("error: %s: cannot find %s in %s: %s", repo.FullName, repo.Config, build.Ref, err)
 		c.AbortWithError(404, err)
 		return
 	}
@@ -530,7 +530,7 @@ func (b *builder) Build() ([]*buildItem, error) {
 			),
 			compiler.WithEnviron(proc.Environ),
 			compiler.WithProxy(),
-			compiler.WithWorkspaceFromURL("/drone", b.Curr.Link),
+			compiler.WithWorkspaceFromURL("/drone", b.Repo.Link),
 			compiler.WithMetadata(metadata),
 		).Compile(parsed)
 

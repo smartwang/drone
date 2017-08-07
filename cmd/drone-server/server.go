@@ -72,6 +72,12 @@ var flags = []cli.Flag{
 		Name:   "quic",
 		Usage:  "start the server with quic enabled",
 	},
+	cli.StringFlag{
+		EnvVar: "DRONE_WWW",
+		Name:   "www",
+		Usage:  "serve the website from disk",
+		Hidden: true,
+	},
 	cli.StringSliceFlag{
 		EnvVar: "DRONE_ADMIN",
 		Name:   "admin",
@@ -463,8 +469,13 @@ func server(c *cli.Context) error {
 	store_ := setupStore(c)
 	setupEvilGlobals(c, store_, remote_)
 
+	// we are switching from gin to httpservermux|treemux,
+	// so if this code looks strange, that is why.
+	tree := setupTree(c)
+
 	// setup the server and start the listener
 	handler := router.Load(
+		tree,
 		ginrus.Ginrus(logrus.StandardLogger(), time.RFC3339, true),
 		middleware.Version,
 		middleware.Config(c),
@@ -508,12 +519,18 @@ func server(c *cli.Context) error {
 
 	// start the server with tls enabled
 	if c.String("server-cert") != "" {
-		return http.ListenAndServeTLS(
-			c.String("server-addr"),
-			c.String("server-cert"),
-			c.String("server-key"),
-			handler,
-		)
+		g.Go(func() error {
+			return http.ListenAndServe(":http", handler)
+		})
+		g.Go(func() error {
+			return http.ListenAndServeTLS(
+				":https",
+				c.String("server-cert"),
+				c.String("server-key"),
+				handler,
+			)
+		})
+		return g.Wait()
 	}
 
 	// start the server without tls enabled
